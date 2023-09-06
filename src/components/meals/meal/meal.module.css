@@ -1,0 +1,57 @@
+.MealBox {
+  width: 750rem;
+  display: flex;
+  align-items: center;
+  padding: 30rem 20rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.ImgBox {
+  width: 280rem;
+}
+
+.ImgBox img {
+  width: 280rem;
+}
+
+.BurgerInfo {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+}
+
+.Name {
+  font-weight: normal;
+  font-size: 36rem;
+  margin: 0;
+}
+
+.Desc {
+  margin: 0;
+  color: #bbb;
+  font-size: 24rem;
+  padding-right: 10rem;
+}
+
+.Money {
+  padding-right: 10rem;
+  margin-top: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.UnitPrice {
+  font-size: 36rem;
+  font-weight: bold;
+}
+
+.UnitPrice::before {
+  content: "$";
+  font-size: 24rem;
+}
+
+.Qty {
+  font-size: 36rem;
+}
